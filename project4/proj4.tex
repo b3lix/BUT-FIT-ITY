@@ -1,0 +1,55 @@
+% Author: Erik Belko <xbelko02@stud.fit.vutbr.cz>
+
+\documentclass[a4paper, 11pt]{article}[8.4.2020]
+
+\usepackage{times}
+\usepackage[left=2cm, text={17cm, 24cm}, top=3cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{xurl}
+\usepackage[unicode, breaklinks]{hyperref}
+\usepackage{dtk-logos}
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+		\Huge \textsc{Vysoké učení technické v~Brně}\\
+		\huge \textsc{Fakulta informačních technologií}\\
+		\vspace{\stretch{0.382}}
+		\LARGE Typografie a~publikování\,--\,4. projekt\\
+		\Huge Bibliografické citace
+		\vspace{\stretch{0.618}}
+	\end{center}
+	{\Large \today
+		\hfill
+	Erik Belko }
+\end{titlepage}
+
+\section{Typografie}
+Typografie je souhrn pravidel, které podporují srozumitelnost a~čitelnost textu. Je to forma umění a~techniky navrhování písem, má důležité místo v~životě každého designéra. Typografii můžeme rovněž pokládat za formu jazyka. \cite{Lupton}
+\par Slovo typografie je odvozeno z~řeckého \emph{typós} (znaky) a~\emph{graphein} (psát), přeneseně grafika textu. Znaky byly za rozkvětu říše Římské \emph{tesány} do kamene. Slovo \emph{typos} má i~tento význam. \cite{Olsak}
+
+\subsection{Historie typografie}
+Dějiny typografie ve vlastním slova smyslu začínají na přelomu středověku a~novověku kolem poloviny 15. století. Nejčastěji se za vynálezce označuje Johannes Gutenberg, který v~Mohuči v~roce 1448 uvedl do provozu knihtisk z~dřevěných matric. Typografie má bohatou historii viz~\cite{Wiki:Typografie}.
+\par Významný posun vpřed v~oblasti typografie nastal rozmachem osobních počítačů a~příslušného softwarového vybavení podle \cite{Rybicka}. Jak je zmíněno v~práci \cite{Jirasek}, výrazný posun v~tisku je možné pozorovat v~19. století, kdy přichází mnoho nových technologií jako litografie, barevný tisk, \uv{rotačka} a~ofsetový tisk. Nejvíce nových technologií však přichází až v~20. století.
+
+\section{\TeX}
+Jak se píše v \cite{FullCircle} {\TeX} je výtvor Donalda Knutha, který je počítačovým programátorem. {\TeX} byl vytvořen v~roce 1978 a~později byl {\TeX} vylepšen Leslie Lamportem v~roce 1984. Proto se nazývá {\LaTeX}.
+
+\subsection{\LaTeX}
+Článek \cite{programujte} uvádí, že {\LaTeX} je tedy náš přístup k~sázení souborů. Jedná se o~velice elegantní sérii příkazů, které posílají naše myšlenky sázecímu systému, který poté vytvoří dokument pro naše potěšení.
+\par Ale vzhledem k~tomu, že {\LaTeX} umožňuje realizovat skoro každou vaši představu o~výsledné sazbě, může vzniknout jako výsledek práce s~{\LaTeX}em vedle krásné sazby i~pozoruhodný zmetek, zdůrazňuje se v~\cite{cstug}.
+
+\subsection{Rozšíření {\LaTeX}u}
+{\LaTeX} má velkou komunitu nadšenců a~proto vznikly různé rozšíření, které je možné použít spolu s~{\LaTeX}em. Mezi nejznámější patří {\AmS}-{\LaTeX}, {\BibTeX} nebo {\MiKTeX}. Méně známé je například Unicode rozšíření {\XeTeX} na které se zaměřuje \cite{Kocur}.
+
+\section{Kde hledat další informace}
+Informací a~zdrojů o~{\LaTeX}u, {\TeX}u a~typografii samotné je na internetu nepřeberné množství. Lze také nalézt serialové publikace \cite{cstug} a~různé články\cite{rootcz} nebo \cite{FullCircle} zabývající se touto tématikou.
+
+\newpage
+\bibliographystyle{czechiso}
+\renewcommand{\refname}{Bibliografie}
+\bibliography{proj4}
+
+\end{document}
